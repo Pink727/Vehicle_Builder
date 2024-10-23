@@ -1,7 +1,7 @@
 {
   "name": "develop",
   "version": "1.0.0",
-  "description": "",
+  "description": "![License](https://img.shields.io/badge/license-MIT-blue.svg)",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -12,11 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.19",
-    "typescript": "^5.4.5"
+    "inquirer": "^9.2.19"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7",
-    "@types/node": "^20.12.7"
-  }
+    "@types/node": "^20.12.7",
+    "typescript": "^5.6.3"
+  },
+  "keywords": []
 }
