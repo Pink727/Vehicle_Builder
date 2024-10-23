@@ -1,41 +1,29 @@
-// import classes
+// Importing the Truck class from the Truck module
 import Truck from "./classes/Truck.js";
+// Importing the Car class from the Car module
 import Car from "./classes/Car.js";
+// Importing the Motorbike class from the Motorbike module
 import Motorbike from "./classes/Motorbike.js";
+// Importing the Wheel class from the Wheel module
 import Wheel from "./classes/Wheel.js";
+// Importing the Cli class from the Cli module
 import Cli from "./classes/Cli.js";
 
-// create an array of vehicles
+
 const vehicles = [];
+/// 5000 is the weight of the truck and 10000 is the max load of the truck
+const truck1 = new Truck(Cli.generateVin(), "red", "Ford", "F-150", 2021, 5000, 120, [], 10000); 
+/// 3000 is the weight of the car and 130 is the max speed of the car
+const car1 = new Car(Cli.generateVin(), 'blue', 'Toyota', 'Camry', 2021, 3000, 130, []); 
+/// 17 is the diameter of the wheels of the motorbike
+const motorbike1Wheels = [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")]; 
+/// 500 is the weight of the motorbikw
+const motorbike1 = new Motorbike(Cli.generateVin(), "black", "Harley Davidson", "Sportster", 2021, 500, 125, motorbike1Wheels);
 
-// TODO: uncomment once trucks are implemented
-// const truck1 = new Truck(Cli.generateVin(),"red", "Ford", "F-150", 2021, 5000, 120, [], 10000);
 
-// will use default wheels
-const car1 = new Car(
-  Cli.generateVin(),
-  'blue',
-  'Toyota',
-  'Camry',
-  2021,
-  3000,
-  130,
-  []
-);
-
-// TODO: uncomment once motorbikes are implemented
-// const motorbike1Wheels = [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")];
-// const motorbike1 = new Motorbike(Cli.generateVin(), "black", "Harley Davidson", "Sportster", 2021, 500, 125, motorbike1Wheels);
-
-// push vehicles to array
-// TODO: uncomment once trucks are implemented
-// vehicles.push(truck1);
+vehicles.push(truck1);
 vehicles.push(car1);
-// TODO: uncomment once motorbikes are implemented
-// vehicles.push(motorbike1);
+vehicles.push(motorbike1);
 
-// create a new instance of the Cli class
 const cli = new Cli(vehicles);
-
-// start the cli
 cli.startCli();
