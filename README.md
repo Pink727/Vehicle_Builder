@@ -33,7 +33,7 @@ To install the necessary dependencies, follow these steps:
 
 ## Contributing
 
-Base files where provided by © 2024 edX Boot Camps
+Base files were provided by © 2024 edX Boot Camps
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
