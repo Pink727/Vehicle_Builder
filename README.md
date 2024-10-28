@@ -41,7 +41,7 @@ This project is licensed under the [MIT License](https://opensource.org/license/
 ## Video
 
 In this video, we demonstrate how to use the Vehicle Builder application to create and customize different types of vehicles, including cars, motorbikes, and trucks. The video covers the installation process, basic usage, and some advanced features of the application.
-[Watch the demo video](https://www.youtube.com/watch?v=JKMeed95I18)
+[Watch the demo video](https://youtu.be/3nsbrNDJzXo)
 
 
 ## Questions
