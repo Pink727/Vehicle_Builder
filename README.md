@@ -49,7 +49,5 @@ For any questions, please contact me with the information below:
 
 GitHub: [Pink727](https://github.com/Pink727)
 
-Email: doc72789@gmail.com
-
 ____________________________________
 © 2024 Pink727. All Rights Reserved.
